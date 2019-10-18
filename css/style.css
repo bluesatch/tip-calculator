@@ -1,0 +1,82 @@
+body {
+    background: #888;
+    color: #ddd;
+}
+
+header {
+    margin-bottom: 20px;
+    background: dodgerblue;
+    border-bottom: 5px solid red;
+}
+h1, h2 {
+    text-align: center;
+}
+
+.instructions {
+    background: #eee;
+    color: #000;
+    font-family: monospace;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+
+
+.variable {
+    font-size: 16px;
+    color: #0db063;
+}
+
+.calculator {
+    padding: 20px;
+    background: #eee;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #000; 
+    border-radius: 5px;
+}
+
+.check {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    padding: 5px;
+    background: #eee;
+    color: #000;
+    font-family: monospace;
+    border: 2px solid #000;
+}
+.slogan {
+    position: absolute;
+    bottom:45px;
+    left: 10px;
+    text-align: center;
+}
+.total {
+    position: absolute;
+    bottom: 3px;
+    left: 10px;
+    font-size: 28px;
+}
+
+.stripe1 {
+    position: absolute;
+    top: 0;
+    left: 75px;
+    width: 50px;
+    height: 600px;
+    opacity: .15;
+    background: coral;
+    z-index: 1;
+}
+
+.stripe2 {
+    position: absolute;
+    top: 0;
+    left: 250px;
+    width: 50px;
+    height: 600px;
+    opacity: .15;
+    background: coral;
+    z-index: 1;
+}
